@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Perusahaan extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'nama_perusahaan','email','password','alamat','foto','kontak','posisi','persyaratan','status'
+    ];
+}
+
